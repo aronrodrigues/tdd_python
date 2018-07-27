@@ -1,6 +1,6 @@
 # Project based on book Test-Driven Development with Python by Harry J. W. Percival
 
-<http://www.obeythetestinggoat.com/book/chapter_post_and_database.html>
+<http://www.obeythetestinggoat.com/>
 
 ```bash
 # python3 manage.py test
@@ -12,4 +12,8 @@
 # pip install django
 # django-admin --version
 # deactivate
+
+rm db.sqlite3
+python manage.py migrate --noinput
+
 ```
