@@ -5,6 +5,7 @@
 ```bash
 # python3 manage.py test
 # python3 manage.py runserver
+# python3 manage.py test functional_tests
 
 # sudo pip3 install virtualenv
 # virtualenv newenv
@@ -15,5 +16,4 @@
 
 rm db.sqlite3
 python manage.py migrate --noinput
-
 ```
